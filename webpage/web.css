@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    color: #1a8383;
+    font-size: 40px;
+}
+.hero p{
+    background-color: #94178e;
+    opacity: 0.9;
+    color:#d3dacf ;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #94178e;
+    color: #d3dacf;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 60px;
+}
+.btn:hover{
+    background-color: brown;
+    font-style: italic;
+}
+
+.menu {
+   padding-top: 0px;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 10px 60px;
+    text-align: center;
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 150px;
+    color:#6f0a5d;
+    font-size: 20px;
+    
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.menu-item img:hover{
+    border: 2px groove rgb(23, 15, 15);
+}
+.menu{
+    background-color: rgb(250, 250, 246);
+    padding: 50px 0;
+    text-align: center;
+    border: 2px solid gray;
+}
+.reservation {
+    background-color: #9d3f9d;
+    padding: 50px 0;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.reservation form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #9dbcb7;
+    border-radius: 5px;
+    color: #9c0c95;
+    font-size: 20px;
+}
+#res{
+    float: right;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+h1{
+    display: inline-block;
+}
